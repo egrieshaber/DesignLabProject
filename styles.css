@@ -1,5 +1,5 @@
   body{
-    background-color: #f1faee;
+    background-color: #EAF4D3;
     max-width: 982px;
     margin-left: 50px;
   }
@@ -12,27 +12,45 @@
 .MainTitle-Header{
     font-family: 'Poltawski Nowy', serif;
     font-size: 80px;
-    font-color: #22223b;
+    color: #22223b;
 }
 
 .Section-Header{
     font-family: 'Poltawski Nowy', serif;
     font-size: 40px;
-    font-color: #22223b;
+    color: #22223b;
 }
 
 .Main-Text {
     font-family: 'Mulish', sans-serif;
-    font-color: #1d3557;
+    color: #1d3557;
 }
 
 .percent-highlight {
   font-size: 22px;
 }
 
-.d3-tip {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-  font-size: 12px;
+.gun_violence_memorial {
+  transform: scale(0.8);
+  margin-left: -145px;
+  margin-top: -50px;
+}
+
+.footer {
+  background-color: #994636 !important;
+  color: white !important;
+  height: 400px;
+  width: 982px;
+  margin-left: 50px;
+  font-family: 'Mulish', sans-serif;
+  margin-left: -10px;
+}
+
+.footer-info {
+  margin-left: 25px;
+  margin-top: 55px;
+}
+
+a {
+  color: white;
 }
