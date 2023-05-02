@@ -1,0 +1,38 @@
+  body{
+    background-color: #f1faee;
+    max-width: 982px;
+    margin-left: 50px;
+  }
+
+  .MainTitle {
+    max-width: 982px;
+    text-align: left;
+  }
+
+.MainTitle-Header{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 80px;
+    font-color: #22223b;
+}
+
+.Section-Header{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 40px;
+    font-color: #22223b;
+}
+
+.Main-Text {
+    font-family: 'Mulish', sans-serif;
+    font-color: #1d3557;
+}
+
+.percent-highlight {
+  font-size: 22px;
+}
+
+.d3-tip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 12px;
+}

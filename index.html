@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gun Violence Archive Visualization</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poltawski+Nowy:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    
+    <!-- D3.js library -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
+    
+
+    <div class="TitleSection">
+      <p class="MainTitle-Header">
+        <h1 class="MainTitle-Header">Gun Violence in America</h1>
+      </p>
+      <p class="Main-Text">
+        Gun violence has become a defining feature of American society, 
+        leaving a trail of death and devastation in its wake. Mass shootings 
+        and school shootings have become all too common, and the debate over 
+        gun control has reached a fever pitch. While many Americans view guns 
+        as an essential part of their culture and identity, others see them as 
+        a dangerous and deadly force that needs to be controlled. As we explore 
+        the issue of gun violence in America, it is important to consider the 
+        various factors that contribute to this problem and the potential solutions 
+        that can help save lives.
+      </p>
+    </div>
+
+    <!-- Section One -->
+    <div class="Section 1">
+      <p class="Section-Header">A Recent spike in violence</p>
+      <p class="Main-Text">
+        The Covid-19 pandemic has brought about an unexpected correlation to the spike in 
+        gun incidents in the United States. With the rise of Covid-19 cases, many individuals 
+        were left feeling isolated and anxious. This, coupled with political and social unrest, 
+        has contributed to an increase in gun-related incidents. The statistics surrounding 
+        gun violence in the United States can be alarming. 
+        With each passing year, the number of incidents and deaths related to gun violence 
+        continues to rise. In 2020 and 2021, these numbers reached new heights, leaving 
+        many wondering what can be done to address this critical issue.
+      </p>
+      <p class="Main-Text">
+        In 2020, there were 43,569 total incidents and 38,680 deaths related to gun 
+        violence, an increase of 5% and 15% respectively from 2019. In 2021, there 
+        were 61,585 total incidents and 40,028 deaths related to gun violence, an 
+        increase of 41% and 4% respectively from 2020.
+      </p>
+      <div class="chart1">
+        <iframe width="100%" height="476" frameborder="0"
+        src="https://observablehq.com/embed/864acf9675ad5455@27?cells=sample_chart"></iframe>
+      </div>
+
+    </div>
+
+        <!-- Section Two -->
+    <div class="Section 1">
+      <p class="Section-Header">Mass Shootings</p>
+      
+      <p class="Main-Text">
+        In 2020, there were 43,569 total incidents and 38,680 deaths related to gun 
+        violence, an increase of 5% and 15% respectively from 2019. In 2021, there 
+        were 61,585 total incidents and 40,028 deaths related to gun violence, an 
+        increase of 41% and 4% respectively from 2020.
+      </p>
+      <div class="chart1">
+        <iframe width="100%" height="526" frameborder="0"
+        src="https://observablehq.com/embed/@egrieshaber/chart1@82?cells=numberKilled"></iframe>
+      </div>
+    </div>
+
+        <!-- Section Four -->
+    <div class="Mass Shootings">
+      <p class="Section-Header">Mass Shootings 2</p>
+      <div class="chart1">
+        <iframe width="100%" height="1157" frameborder="0"
+        src="https://observablehq.com/embed/2947c1d93cbc9585@30?cells=map%2Cviewof+extent%2Cviewof+school_shootings%2Cyearly_bar_chart"></iframe>
+      </div>
+    </div>
+
+
+        <!-- Section Three -->
+    <div class="Section 1">
+      <p class="Section-Header">Suicide</p>
+      
+      <p class="Main-Text">
+        Suicide rates in the United States have been on the rise in recent years, 
+        and it is becoming an increasingly pressing issue. According to the Centers 
+        for Disease Control and Prevention (CDC), suicide was the tenth leading cause 
+        of death in the United States in 2019, with over 47,500 individuals taking 
+        their own lives. The COVID-19 pandemic has only heightened concerns about the 
+        mental health and well-being of individuals across the country, and suicide 
+        prevention efforts are more important than ever.
+      </p>
+      <p class="Main-Text">
+        In 2021 the American Indian / Alaskan Native population of the US was approxiamately 
+        9.7 million.  This population exhibits the highest suicide rates and in 2021 the male 
+        AI/AN population was estimated to be 42.6 people per 100,000 or 
+        <b class="percent-highlight">0.0426%</b>.
+      </p>
+      <p class="Main-Text">
+        Approximately <b class="percent-highlight">52.8%</b> of all suicides in the US are 
+        commited via the use of a firearm.
+      </p>
+      <div class="chart1">
+        <iframe width="100%" height="578" frameborder="0"
+        src="https://observablehq.com/embed/864acf9675ad5455@590?cells=suicide20_21"></iframe>
+      </div>
+      <p class="Main-Text">
+        More than half of all firearm-related deaths (54%) are caused by suicides, and the 
+        majority of all suicides (53%) involve a firearm. Despite mass shootings often receiving 
+        more media attention, firearm suicides are more prevalent than homicides. The data from 
+        2020 shows that 54% of all firearm-related deaths were suicides, 43% were homicides, and 
+        2% were accidental discharges or undetermined causes. This marks a small decrease from 2018 
+        and 2019 when firearm suicides accounted for over 60% of all firearm deaths during that 
+        period. Further analysis of suicides shows that guns were involved in 53% of all suicides 
+        in 2020, making them the primary method for suicide.
+      </p>
+      <div id="chart" class="chart"></div>
+    
+    
+    
+    
+    
+    
+    
+    
+      <!-- JavaScript code for generating the chart -->
+    <script src="chart.js"></script>
+
+    </div>
+
+
+
+
+  </body>
+</html>
